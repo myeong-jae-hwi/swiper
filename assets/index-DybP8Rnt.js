@@ -23,7 +23,7 @@ var lt=Object.defineProperty;var ct=(r,t,e)=>t in r?lt(r,t,{enumerable:!0,config
       <li class="item" @click=${this.handleSandData}>
         <h3 class="name">${this.name}</h3>
         <div class="flex">
-          <img src="${console.log(`https://myeong-jae-hwi.github.io/swiper+${this.src}`)}" alt="" />
+          <img src="${console.log(`https://myeong-jae-hwi.github.io/swiper/${this.src}`)}" alt="" />
           <ul class="description">
             ${this.description.map(t=>C` <li>${t}</li> `)}
           </ul>
