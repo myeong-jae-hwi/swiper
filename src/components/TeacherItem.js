@@ -1,5 +1,5 @@
 import { LitElement, html } from "lit";
-import s from "/src/style/Card.css?inline";
+import s from "./src/style/Card.css?inline";
 
 // console.log(s);
 

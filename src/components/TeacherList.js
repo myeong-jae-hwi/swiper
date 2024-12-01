@@ -1,5 +1,5 @@
 import { LitElement, html } from "lit";
-import {} from "/src/components/TeacherItem";
+import {} from "./src/components/TeacherItem";
 
 class TeacherList extends LitElement {
   static properties = {
