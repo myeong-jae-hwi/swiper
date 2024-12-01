@@ -1,0 +1,31 @@
+.item {
+  width: 500px;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: -1px 0px 12px 7px #e8e8e8ba;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+li {
+  list-style-type: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-block: 8px;
+}
